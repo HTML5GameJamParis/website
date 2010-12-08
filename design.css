@@ -1,0 +1,50 @@
+@import url("http://fonts.googleapis.com/css?family=Josefin+Sans:regular,bold&subset=latin");
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif&subset=latin");
+@import url("http://fonts.googleapis.com/css?family=Cantarell:bold&subset=latin");
+
+*{margin: 0; padding: 0;font-family:'Droid Serif', arial, serif; }
+
+body{ background-color:#aabeba;width:950px;margin:auto;background-color:#425a60}
+p{padding:10px; text-align:justify}
+h1, h2, h3, h4, ul.organisateurs p.name{font-family:'Josefin Sans', arial, serif;text-shadow: 2px 2px 2px #aaa;}
+h2{color:#1aa8c9}
+strong{color:#c91a7b}
+a:link {color:#51B616;text-decoration: none;}  
+a:visited {color:#1aa8c9;}
+a:hover {color:#c91a7b;}
+a:active {color:#0000FF;}
+ul{padding:0 10px }
+li{list-style-position: inside;  }
+
+#main{ width:930px; padding:10px; -moz-border-radius:0px 0px 10px 10px; border-radius:0px 0px 10px 10px; color:#1aa9c9;}
+
+#banner h1{float:left}
+#register{float:right; height:60px; width:400px; margin:40px 15px; background-color:#333; border:none;text-align: center;-moz-border-radius:15px; border-radius:15px; font-family: 'Cantarell', serif;  font-size: 50px;  font-style: normal;  font-weight: 700;  text-transform: uppercase;  line-height: 60px;}
+
+#menuBar{background-color:#DDD; width:930px; padding:0px;clear:both; -moz-border-radius:10px 10px 0px 0px; border-radius:10px 10px 0px 0px;}
+#menuBar a{ padding:10px; color:#3C3D36; text-decoration:none; line-height:2em}
+#menuBar a:hover{ background-color:#EEEEEE; color:#1C1D16;}
+#menuBar a.current{ background-color:#EEEEEE; color:#000000}
+
+#panel{ width:930px; padding:0px; background-color:#EEEEEE; color:#2C2D26; -moz-border-radius:0px 0px 10px 10px; border-radius:0px 0px 10px 10px;}
+
+.game{ color:#2C2D26; text-decoration:none; font-weight:bold;}
+
+#leftPanel{ width:605px; margin-top:10px; margin-left:10px; float:left;}
+#rightPanel{ width:295px; margin-top:10px; margin-bottom:10px; margin-right:10px; float:right;}
+
+.partainer{ width:295px; margin-top:20px; padding:0px; margin-top:10px;-moz-border-radius:10px 10px 0px 0px; border-radius:10px 10px 0px 0px; background-color: #FFF;}
+
+.partainer img{display : block; width : 200px; margin : auto}
+.partainerType{width:285px;height:2em;line-height:2.5em; background-color:#777; color:#EEE; font-weight:bold; padding: 0 5px;-moz-border-radius:10px 10px 0px 0px; border-radius:10px 10px 0px 0px;}
+
+.clearFloat{ clear:both;}
+
+#footer{ background-color: #333;margin:20px 0px; border-radius: 10px;  -moz-border-radius:10px ;color:#DDD; line-height:15px;}
+#footer p{padding:7px 10px;}
+
+ul.organisateurs {list-style-type:none;}
+ul.organisateurs li{clear:both;}
+ul.organisateurs p.name{font-weight:700; font-size:110% }
+ul.organisateurs img {float:left; margin:10px;}
+
